@@ -1,0 +1,2 @@
+Validation RMSE: 19354.04
+Validation R²: 0.88

@@ -1,0 +1,5 @@
+Final Evaluation Report
+=======================
+Validation RMSE: 19354.04
+Validation R²: 0.88
+Further analysis can be added here (e.g., error breakdown by feature groups).

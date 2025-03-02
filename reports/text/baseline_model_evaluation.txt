@@ -1,0 +1,1 @@
+Baseline Model RMSE on Validation Set: 19859.58

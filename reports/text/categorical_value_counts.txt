@@ -1,0 +1,355 @@
+Column: MSZoning
+RL         1151
+RM          218
+FV           65
+RH           16
+C (all)      10
+Name: MSZoning, dtype: int64
+
+Column: Street
+Pave    1454
+Grvl       6
+Name: Street, dtype: int64
+
+Column: Alley
+Grvl    50
+Pave    41
+Name: Alley, dtype: int64
+
+Column: LotShape
+Reg    925
+IR1    484
+IR2     41
+IR3     10
+Name: LotShape, dtype: int64
+
+Column: LandContour
+Lvl    1311
+Bnk      63
+HLS      50
+Low      36
+Name: LandContour, dtype: int64
+
+Column: Utilities
+AllPub    1459
+NoSeWa       1
+Name: Utilities, dtype: int64
+
+Column: LotConfig
+Inside     1052
+Corner      263
+CulDSac      94
+FR2          47
+FR3           4
+Name: LotConfig, dtype: int64
+
+Column: LandSlope
+Gtl    1382
+Mod      65
+Sev      13
+Name: LandSlope, dtype: int64
+
+Column: Neighborhood
+NAmes      225
+CollgCr    150
+OldTown    113
+Edwards    100
+Somerst     86
+Gilbert     79
+NridgHt     77
+Sawyer      74
+NWAmes      73
+SawyerW     59
+Name: Neighborhood, dtype: int64
+
+Column: Condition1
+Norm      1260
+Feedr       81
+Artery      48
+RRAn        26
+PosN        19
+RRAe        11
+PosA         8
+RRNn         5
+RRNe         2
+Name: Condition1, dtype: int64
+
+Column: Condition2
+Norm      1445
+Feedr        6
+Artery       2
+RRNn         2
+PosN         2
+PosA         1
+RRAn         1
+RRAe         1
+Name: Condition2, dtype: int64
+
+Column: BldgType
+1Fam      1220
+TwnhsE     114
+Duplex      52
+Twnhs       43
+2fmCon      31
+Name: BldgType, dtype: int64
+
+Column: HouseStyle
+1Story    726
+2Story    445
+1.5Fin    154
+SLvl       65
+SFoyer     37
+1.5Unf     14
+2.5Unf     11
+2.5Fin      8
+Name: HouseStyle, dtype: int64
+
+Column: RoofStyle
+Gable      1141
+Hip         286
+Flat         13
+Gambrel      11
+Mansard       7
+Shed          2
+Name: RoofStyle, dtype: int64
+
+Column: RoofMatl
+CompShg    1434
+Tar&Grv      11
+WdShngl       6
+WdShake       5
+Metal         1
+Membran       1
+Roll          1
+ClyTile       1
+Name: RoofMatl, dtype: int64
+
+Column: Exterior1st
+VinylSd    515
+HdBoard    222
+MetalSd    220
+Wd Sdng    206
+Plywood    108
+CemntBd     61
+BrkFace     50
+WdShing     26
+Stucco      25
+AsbShng     20
+Name: Exterior1st, dtype: int64
+
+Column: Exterior2nd
+VinylSd    504
+MetalSd    214
+HdBoard    207
+Wd Sdng    197
+Plywood    142
+CmentBd     60
+Wd Shng     38
+Stucco      26
+BrkFace     25
+AsbShng     20
+Name: Exterior2nd, dtype: int64
+
+Column: MasVnrType
+None       864
+BrkFace    445
+Stone      128
+BrkCmn      15
+Name: MasVnrType, dtype: int64
+
+Column: ExterQual
+TA    906
+Gd    488
+Ex     52
+Fa     14
+Name: ExterQual, dtype: int64
+
+Column: ExterCond
+TA    1282
+Gd     146
+Fa      28
+Ex       3
+Po       1
+Name: ExterCond, dtype: int64
+
+Column: Foundation
+PConc     647
+CBlock    634
+BrkTil    146
+Slab       24
+Stone       6
+Wood        3
+Name: Foundation, dtype: int64
+
+Column: BsmtQual
+TA    649
+Gd    618
+Ex    121
+Fa     35
+Name: BsmtQual, dtype: int64
+
+Column: BsmtCond
+TA    1311
+Gd      65
+Fa      45
+Po       2
+Name: BsmtCond, dtype: int64
+
+Column: BsmtExposure
+No    953
+Av    221
+Gd    134
+Mn    114
+Name: BsmtExposure, dtype: int64
+
+Column: BsmtFinType1
+Unf    430
+GLQ    418
+ALQ    220
+BLQ    148
+Rec    133
+LwQ     74
+Name: BsmtFinType1, dtype: int64
+
+Column: BsmtFinType2
+Unf    1256
+Rec      54
+LwQ      46
+BLQ      33
+ALQ      19
+GLQ      14
+Name: BsmtFinType2, dtype: int64
+
+Column: Heating
+GasA     1428
+GasW       18
+Grav        7
+Wall        4
+OthW        2
+Floor       1
+Name: Heating, dtype: int64
+
+Column: HeatingQC
+Ex    741
+TA    428
+Gd    241
+Fa     49
+Po      1
+Name: HeatingQC, dtype: int64
+
+Column: CentralAir
+Y    1365
+N      95
+Name: CentralAir, dtype: int64
+
+Column: Electrical
+SBrkr    1334
+FuseA      94
+FuseF      27
+FuseP       3
+Mix         1
+Name: Electrical, dtype: int64
+
+Column: KitchenQual
+TA    735
+Gd    586
+Ex    100
+Fa     39
+Name: KitchenQual, dtype: int64
+
+Column: Functional
+Typ     1360
+Min2      34
+Min1      31
+Mod       15
+Maj1      14
+Maj2       5
+Sev        1
+Name: Functional, dtype: int64
+
+Column: FireplaceQu
+Gd    380
+TA    313
+Fa     33
+Ex     24
+Po     20
+Name: FireplaceQu, dtype: int64
+
+Column: GarageType
+Attchd     870
+Detchd     387
+BuiltIn     88
+Basment     19
+CarPort      9
+2Types       6
+Name: GarageType, dtype: int64
+
+Column: GarageFinish
+Unf    605
+RFn    422
+Fin    352
+Name: GarageFinish, dtype: int64
+
+Column: GarageQual
+TA    1311
+Fa      48
+Gd      14
+Ex       3
+Po       3
+Name: GarageQual, dtype: int64
+
+Column: GarageCond
+TA    1326
+Fa      35
+Gd       9
+Po       7
+Ex       2
+Name: GarageCond, dtype: int64
+
+Column: PavedDrive
+Y    1340
+N      90
+P      30
+Name: PavedDrive, dtype: int64
+
+Column: PoolQC
+Gd    3
+Ex    2
+Fa    2
+Name: PoolQC, dtype: int64
+
+Column: Fence
+MnPrv    157
+GdPrv     59
+GdWo      54
+MnWw      11
+Name: Fence, dtype: int64
+
+Column: MiscFeature
+Shed    49
+Gar2     2
+Othr     2
+TenC     1
+Name: MiscFeature, dtype: int64
+
+Column: SaleType
+WD       1267
+New       122
+COD        43
+ConLD       9
+ConLI       5
+ConLw       5
+CWD         4
+Oth         3
+Con         2
+Name: SaleType, dtype: int64
+
+Column: SaleCondition
+Normal     1198
+Partial     125
+Abnorml     101
+Family       20
+Alloca       12
+AdjLand       4
+Name: SaleCondition, dtype: int64
+
