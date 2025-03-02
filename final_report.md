@@ -67,6 +67,4 @@ The final submission file (`submission.csv`) was generated after processing the 
 
 ## 7. Repository & Contact
 
-The complete project—including all code, notebooks, and this report—is available on [GitHub](https://github.com/YourUsername/house-prices-project).
-
-For any questions or further details, please contact me at [your.email@example.com].
+For any questions or further details, please contact me at rkerimov17619@ada.edu.az.
