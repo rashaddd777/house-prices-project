@@ -47,7 +47,7 @@ This project aims to predict the final sale prices of residential homes in Ames,
 
 ## License
 
-*Include your chosen license here (e.g., MIT License).*
+MIT License
 
 ## Contact
 
